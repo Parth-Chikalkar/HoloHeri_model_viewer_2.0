@@ -1,0 +1,21 @@
+<model-viewer src="finalKonark (1).glb" ar ar-modes="scene-viewer webxr quick-look" camera-controls tone-mapping="neutral" poster="poster.webp" shadow-intensity="1">
+    <button class="Hotspot" slot="hotspot-3" data-position="0.10445672255424832m -0.7710759617459311m -4.372431650946587m" data-normal="-0.9717788715225063m 0.1797882146781417m 0.15271549602214804m" data-visibility-attribute="visible">
+        <div class="HotspotAnnotation">Main Tower (Vimana)
+            This is the principal shrine of the Konark Sun Temple, originally housing the idol of the Sun God (Surya). Built in Kalinga architectural style, the tower symbolizes Mount Meru, the cosmic center of the universe. Though partially collapsed today, it remains the spiritual heart of the temple.</div>
+    </button><button class="Hotspot" slot="hotspot-5" data-position="1.1244076411996557m -1.06542843273449m -4.530438997890514m" data-normal="0.9789117086604533m 0.131781333731192m -0.15609467232260069m" data-visibility-attribute="visible">
+        <div class="HotspotAnnotation">Main Tower (Vimana)
+            This is the principal shrine of the Konark Sun Temple, originally housing the idol of the Sun God (Surya). Built in Kalinga architectural style, the tower symbolizes Mount Meru, the cosmic center of the universe. Though partially collapsed today, it remains the spiritual heart of the temple.</div>
+    </button><button class="Hotspot" slot="hotspot-8" data-position="0.6554348898181508m -1.9247499110575936m -1.3890951899779624m" data-normal="-0.0009047585838649483m 0.9999728723895843m -0.007309986103211903m" data-visibility-attribute="visible">
+        <div class="HotspotAnnotation">Jagamohana (Assembly Hall)
+            The Jagamohana is the grand audience hall where devotees gathered for worship and rituals. Its pyramidal roof is richly carved with sculptures depicting gods, celestial beings, and daily life scenes from 13th-century Odisha.</div>
+    </button><button class="Hotspot" slot="hotspot-9" data-position="-1.0873268667192033m -3.634405407364052m -1.7567638454143144m" data-normal="0.0022526738156667587m 0.9999769692418157m 0.006402065809828853m" data-visibility-attribute="visible"></button>
+    <div class="progress-bar hide" slot="progress-bar">
+        <div class="update-bar"></div>
+    </div>
+    <button slot="ar-button" id="ar-button">
+        View in your space
+    </button>
+    <div id="ar-prompt">
+        <img src="https://modelviewer.dev/shared-assets/icons/hand.png">
+    </div>
+</model-viewer>
